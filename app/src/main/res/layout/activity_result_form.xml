@@ -820,7 +820,7 @@
                 android:layout_height="20dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
-                android:text="@{school.namaUnivAsal}"
+                android:text="Univ. Asal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textTitleSchoolData" />
 
@@ -831,7 +831,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nama universitas asal"
+                android:text="@{school.namaUnivAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/fakultasAsal"
                 app:layout_constraintStart_toEndOf="@+id/univAsal"
                 app:layout_constraintTop_toBottomOf="@id/textTitleSchoolData" />
@@ -875,7 +875,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="@{school.namaProdiAsal"
+                android:text="@{school.namaProdiAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/provinsiAsal"
                 app:layout_constraintStart_toEndOf="@+id/prodiAsal"
                 app:layout_constraintTop_toBottomOf="@id/fakultasAsalValue" />

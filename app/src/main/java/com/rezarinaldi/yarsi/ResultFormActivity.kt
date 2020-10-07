@@ -25,10 +25,6 @@ class ResultFormActivity : AppCompatActivity() {
         binding.school = intent.getParcelableExtra<School>(DATA_SCHOOL)!!
         binding.parent = intent.getParcelableExtra<Parent>(DATA_PARENT)!!
         binding.pribadi = intent.getParcelableExtra<Personal>(DATA_PRIBADI)!!
-
-        Log.e(DATA_SCHOOL, binding.school.toString())
-        Log.e(DATA_PARENT, binding.parent.toString())
-        Log.e(DATA_PRIBADI, binding.pribadi.toString())
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
