@@ -138,6 +138,7 @@ class MainActivity : AppCompatActivity() {
             jenisKelamin = radioButtonSelectionSex(),
             kewarganegaraan = radioButtonSelectionNation(),
             agama = binding.spinnerAgama.selectedItem.toString(),
+            alamat = binding.editTextAlamat.text.toString(),
             rt = binding.editTextRT.text.toString(),
             rw = binding.editTextRW.text.toString(),
             kodePos = binding.editTextPostal.text.toString(),

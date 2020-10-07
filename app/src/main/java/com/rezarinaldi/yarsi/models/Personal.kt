@@ -18,6 +18,7 @@ data class Personal(
     var jenisKelamin: String,
     var kewarganegaraan: String,
     var agama: String,
+    var alamat: String,
     var rt: String,
     var rw: String,
     var kodePos: String,

@@ -56,7 +56,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nama"
+                android:text="@{pribadi.nama}"
                 app:layout_constraintBottom_toTopOf="@+id/fakultas"
                 app:layout_constraintStart_toEndOf="@+id/nama"
                 app:layout_constraintTop_toBottomOf="@id/textTitlePersonalData" />
@@ -78,7 +78,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data fakultas"
+                android:text="@{pribadi.fakultas}"
                 app:layout_constraintBottom_toTopOf="@+id/prodi"
                 app:layout_constraintStart_toEndOf="@+id/fakultas"
                 app:layout_constraintTop_toBottomOf="@id/namaValue" />
@@ -100,7 +100,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data prodi"
+                android:text="@{pribadi.prodi}"
                 app:layout_constraintBottom_toTopOf="@+id/status"
                 app:layout_constraintStart_toEndOf="@+id/prodi"
                 app:layout_constraintTop_toBottomOf="@id/fakultasValue" />
@@ -122,7 +122,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data status daftar"
+                android:text="@{pribadi.status}"
                 app:layout_constraintBottom_toTopOf="@id/password"
                 app:layout_constraintStart_toEndOf="@+id/status"
                 app:layout_constraintTop_toBottomOf="@id/prodiValue" />
@@ -144,7 +144,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data password"
+                android:text="@{pribadi.password}"
                 app:layout_constraintBottom_toTopOf="@id/alasan"
                 app:layout_constraintStart_toEndOf="@+id/password"
                 app:layout_constraintTop_toBottomOf="@id/statusValue" />
@@ -166,7 +166,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data alasan memilih prodi"
+                android:text="@{pribadi.alasan}"
                 app:layout_constraintBottom_toTopOf="@id/nik"
                 app:layout_constraintStart_toEndOf="@+id/alasan"
                 app:layout_constraintTop_toBottomOf="@id/passwordValue" />
@@ -188,7 +188,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nik"
+                android:text="@{pribadi.nik}"
                 app:layout_constraintBottom_toTopOf="@id/prestasi"
                 app:layout_constraintStart_toEndOf="@+id/nik"
                 app:layout_constraintTop_toBottomOf="@id/alasanValue"
@@ -211,7 +211,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data prestasi"
+                android:text="@{pribadi.prestasi}"
                 app:layout_constraintBottom_toTopOf="@id/tmpLahir"
                 app:layout_constraintStart_toEndOf="@+id/prestasi"
                 app:layout_constraintTop_toBottomOf="@id/nikValue" />
@@ -233,7 +233,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data tempat lahir"
+                android:text="@{pribadi.tempat}"
                 app:layout_constraintBottom_toTopOf="@id/tglLahir"
                 app:layout_constraintStart_toEndOf="@+id/tmpLahir"
                 app:layout_constraintTop_toBottomOf="@id/prestasiValue" />
@@ -255,7 +255,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data tanggal lahir"
+                android:text="@{pribadi.tanggal}"
                 app:layout_constraintBottom_toTopOf="@id/jK"
                 app:layout_constraintStart_toEndOf="@+id/tglLahir"
                 app:layout_constraintTop_toBottomOf="@id/tmpLahirValue" />
@@ -277,7 +277,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data jenis kelamin"
+                android:text="@{pribadi.jenisKelamin}"
                 app:layout_constraintBottom_toTopOf="@id/warga"
                 app:layout_constraintStart_toEndOf="@+id/jK"
                 app:layout_constraintTop_toBottomOf="@id/tglLahirValue" />
@@ -299,7 +299,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data kewarganegaraan"
+                android:text="@{pribadi.kewarganegaraan}"
                 app:layout_constraintBottom_toTopOf="@id/agama"
                 app:layout_constraintStart_toEndOf="@+id/warga"
                 app:layout_constraintTop_toBottomOf="@id/jKValue" />
@@ -321,7 +321,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data agama"
+                android:text="@{pribadi.agama}"
                 app:layout_constraintBottom_toTopOf="@id/alamat"
                 app:layout_constraintStart_toEndOf="@+id/agama"
                 app:layout_constraintTop_toBottomOf="@id/wargaValue" />
@@ -343,7 +343,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data alamat"
+                android:text="@{pribadi.alamat}"
                 app:layout_constraintBottom_toTopOf="@id/rtMhs"
                 app:layout_constraintStart_toEndOf="@+id/alamat"
                 app:layout_constraintTop_toBottomOf="@id/agamaValue" />
@@ -365,7 +365,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data rt"
+                android:text="@{pribadi.rt}"
                 app:layout_constraintBottom_toTopOf="@id/rwMhs"
                 app:layout_constraintStart_toEndOf="@+id/rtMhs"
                 app:layout_constraintTop_toBottomOf="@id/alamatValue" />
@@ -387,7 +387,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data rw"
+                android:text="@{pribadi.rw}"
                 app:layout_constraintBottom_toTopOf="@id/kodePos"
                 app:layout_constraintStart_toEndOf="@+id/rwMhs"
                 app:layout_constraintTop_toBottomOf="@id/rtMhsValue" />
@@ -409,7 +409,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data kode pos"
+                android:text="@{pribadi.kodePos}"
                 app:layout_constraintBottom_toTopOf="@id/provinsi"
                 app:layout_constraintStart_toEndOf="@+id/kodePos"
                 app:layout_constraintTop_toBottomOf="@id/rwMhsValue" />
@@ -431,7 +431,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data provinsi"
+                android:text="@{pribadi.provinsi}"
                 app:layout_constraintBottom_toTopOf="@id/kotKab"
                 app:layout_constraintStart_toEndOf="@+id/provinsi"
                 app:layout_constraintTop_toBottomOf="@id/kodePosValue" />
@@ -453,7 +453,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data kota / kabupaten"
+                android:text="@{pribadi.kota}"
                 app:layout_constraintBottom_toTopOf="@id/phoneMhs"
                 app:layout_constraintStart_toEndOf="@+id/kotKab"
                 app:layout_constraintTop_toBottomOf="@id/provinsiValue" />
@@ -475,7 +475,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data no. hp"
+                android:text="@{pribadi.phone}"
                 app:layout_constraintBottom_toTopOf="@id/emailMhs"
                 app:layout_constraintStart_toEndOf="@+id/phoneMhs"
                 app:layout_constraintTop_toBottomOf="@id/kotKabValue" />
@@ -497,7 +497,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data email"
+                android:text="@{pribadi.email}"
                 app:layout_constraintBottom_toTopOf="@id/textTitleParentData"
                 app:layout_constraintStart_toEndOf="@+id/emailMhs"
                 app:layout_constraintTop_toBottomOf="@id/phoneMhsValue" />
@@ -532,7 +532,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nama ayah"
+                android:text="@{parent.namaAyah}"
                 app:layout_constraintBottom_toTopOf="@id/nikAyah"
                 app:layout_constraintStart_toEndOf="@+id/namaAyah"
                 app:layout_constraintTop_toBottomOf="@id/textTitleParentData" />
@@ -554,7 +554,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nik ayah"
+                android:text="@{parent.nikAyah}"
                 app:layout_constraintBottom_toTopOf="@id/namaIbu"
                 app:layout_constraintStart_toEndOf="@+id/nikAyah"
                 app:layout_constraintTop_toBottomOf="@id/namaAyahValue" />
@@ -576,7 +576,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nama ibu"
+                android:text="@{parent.namaIbu}"
                 app:layout_constraintBottom_toTopOf="@id/nikIbu"
                 app:layout_constraintStart_toEndOf="@+id/namaIbu"
                 app:layout_constraintTop_toBottomOf="@id/nikAyahValue" />
@@ -598,7 +598,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nik ibu"
+                android:text="@{parent.nikIbu}"
                 app:layout_constraintBottom_toTopOf="@id/thnLahirAyah"
                 app:layout_constraintStart_toEndOf="@+id/nikIbu"
                 app:layout_constraintTop_toBottomOf="@id/namaIbuValue" />
@@ -620,7 +620,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data tahun lahir ayah"
+                android:text="@{parent.tanggalLahirAyah}"
                 app:layout_constraintBottom_toTopOf="@id/thnLahirIbu"
                 app:layout_constraintStart_toEndOf="@+id/thnLahirAyah"
                 app:layout_constraintTop_toBottomOf="@id/nikIbuValue" />
@@ -642,7 +642,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data tahun lahir ibu"
+                android:text="@{parent.tanggalLahirIbu}"
                 app:layout_constraintBottom_toTopOf="@id/alamatOrtu"
                 app:layout_constraintStart_toEndOf="@+id/thnLahirIbu"
                 app:layout_constraintTop_toBottomOf="@id/thnLahirAyahValue" />
@@ -664,7 +664,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data alamat orang tua"
+                android:text="@{parent.alamatParent}"
                 app:layout_constraintBottom_toTopOf="@id/phoneOrtu"
                 app:layout_constraintStart_toEndOf="@+id/alamatOrtu"
                 app:layout_constraintTop_toBottomOf="@id/thnLahirIbuValue" />
@@ -686,7 +686,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data no. hp orang tua"
+                android:text="@{parent.phoneOrtu}"
                 app:layout_constraintBottom_toTopOf="@id/emailOrtu"
                 app:layout_constraintStart_toEndOf="@+id/phoneOrtu"
                 app:layout_constraintTop_toBottomOf="@id/alamatOrtuValue" />
@@ -708,7 +708,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data email orang tua"
+                android:text="@{parent.emailParent}"
                 app:layout_constraintBottom_toTopOf="@id/pdkAyah"
                 app:layout_constraintStart_toEndOf="@+id/emailOrtu"
                 app:layout_constraintTop_toBottomOf="@id/phoneOrtuValue" />
@@ -730,7 +730,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data pendidikan akhir ayah"
+                android:text="@{parent.pendidikanAyah}"
                 app:layout_constraintBottom_toTopOf="@id/pdkIbu"
                 app:layout_constraintStart_toEndOf="@+id/pdkAyah"
                 app:layout_constraintTop_toBottomOf="@id/emailOrtuValue" />
@@ -752,7 +752,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data pendidikan akhir ayah"
+                android:text="@{parent.pendidikanIbu}"
                 app:layout_constraintBottom_toTopOf="@id/pkjAyah"
                 app:layout_constraintStart_toEndOf="@+id/pdkIbu"
                 app:layout_constraintTop_toBottomOf="@id/pdkAyahValue" />
@@ -774,7 +774,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data pekerjaan ayah"
+                android:text="@{parent.pekerjaanAyah}"
                 app:layout_constraintBottom_toTopOf="@id/pkjIbu"
                 app:layout_constraintStart_toEndOf="@+id/pkjAyah"
                 app:layout_constraintTop_toBottomOf="@id/pdkIbuValue" />
@@ -796,7 +796,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data pekerjaan ibu"
+                android:text="@{parent.pekerjaanIbu}"
                 app:layout_constraintBottom_toTopOf="@id/textTitleSchoolData"
                 app:layout_constraintStart_toEndOf="@+id/pkjIbu"
                 app:layout_constraintTop_toBottomOf="@id/pkjAyahValue" />
@@ -820,7 +820,7 @@
                 android:layout_height="20dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
-                android:text="Univ Asal"
+                android:text="@{school.namaUnivAsal}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textTitleSchoolData" />
 
@@ -853,7 +853,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data fakultas asal"
+                android:text="@{school.namaFakultasAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/prodiAsal"
                 app:layout_constraintStart_toEndOf="@+id/fakultasAsal"
                 app:layout_constraintTop_toBottomOf="@id/univAsalValue" />
@@ -875,7 +875,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data prodi asal"
+                android:text="@{school.namaProdiAsal"
                 app:layout_constraintBottom_toTopOf="@+id/provinsiAsal"
                 app:layout_constraintStart_toEndOf="@+id/prodiAsal"
                 app:layout_constraintTop_toBottomOf="@id/fakultasAsalValue" />
@@ -897,7 +897,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data provinsi asal"
+                android:text="@{school.provinsiUnivAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/kotKabAsal"
                 app:layout_constraintStart_toEndOf="@+id/provinsiAsal"
                 app:layout_constraintTop_toBottomOf="@id/prodiAsalValue" />
@@ -919,7 +919,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data kota / kabupaten asal"
+                android:text="@{school.kotaUnivAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/alamatUniv"
                 app:layout_constraintStart_toEndOf="@+id/kotKabAsal"
                 app:layout_constraintTop_toBottomOf="@id/provinsiAsalValue" />
@@ -941,7 +941,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data alamat universitas"
+                android:text="@{school.alamatUnivAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/kodePosUniv"
                 app:layout_constraintStart_toEndOf="@+id/alamatUniv"
                 app:layout_constraintTop_toBottomOf="@id/kotKabAsalValue" />
@@ -963,7 +963,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data kode pos universitas"
+                android:text="@{school.kodePosUnivAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/akreUniv"
                 app:layout_constraintStart_toEndOf="@+id/kodePosUniv"
                 app:layout_constraintTop_toBottomOf="@id/alamatUnivValue" />
@@ -985,7 +985,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data akreditasi universitas"
+                android:text="@{school.akreditasiUnivAsal}"
                 app:layout_constraintBottom_toTopOf="@+id/nilaiIpk"
                 app:layout_constraintStart_toEndOf="@+id/akreUniv"
                 app:layout_constraintTop_toBottomOf="@id/kodePosUnivValue" />
@@ -1007,7 +1007,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="ini nanti data nilai ipk"
+                android:text="@{school.nilaiIPK}"
                 app:layout_constraintStart_toEndOf="@+id/nilaiIpk"
                 app:layout_constraintTop_toBottomOf="@id/akreUnivValue" />
 
